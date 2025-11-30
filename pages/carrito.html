@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/mate.ico" type="image/x-icon">
+    <title>Tienda Mate</title>
+</head>
+<body>
+  <header class="header">
+    <p class="header__logo">
+      <a href="../index.html">Tienda mate<sup>&copy;</sup></a>
+    </p>
+    <nav class="header__nav">
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        <li>
+          <a href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p><img src="../img/mate-logo-sin-fondo.png" alt="Mate" height="150"/></p>
+    <h1>Carrito de compras</h1>
+      <section id="contenedor-carrito">
+        <!-- Productos del carrito -->
+      </section>
+      <div class="acciones-carrito" id="acciones-carrito">
+        <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
+      </div>
+      <section id="resumen-carrito">
+        <!-- Aca ira el resumen del carrito -->
+      </section>
+  </main>
+
+  <footer class="footer">
+    <p>Tienda mate&copy; 2025 - Todos los derechos reservados.<br>Esta pagina la diseñó Nahuel</p>
+    <nav>
+      <ul>
+        <li>Instagram</li>
+        <li>Tiktok</li>
+        <li>X</li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script type="module" src="../js/carrito.js"></script>
+</body>
+</html>
